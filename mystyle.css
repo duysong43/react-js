@@ -1,0 +1,241 @@
+.lang_flag{
+	width: 30px;
+
+}
+
+.mr-auto{
+	margin-right: auto!important;
+}
+
+.navbar-brand{
+	color: red!important;
+	font-size: 2.0rem;
+	font-weight: 600;
+	padding: 0.5rem;
+	border: 3px black solid;
+}
+
+#myCarousel{
+	background-color: #FF4545;
+}
+
+#myCarousel .carousel-caption{
+	left: 10%;
+	top: 140px;
+	right: unset;
+}
+
+.home-carousel-title{
+	color: black;
+	font-weight: 900;
+	text-align: left;
+
+}
+
+h1 .home-carousel-title{
+	font-size: 3.0rem;
+}
+
+h6 .home-carousel-title{
+	font-size: 1.2rem;
+}
+
+.home-button{
+	background-color: unset;
+	border: 3px solid white;
+}
+
+.section-title{
+	text-transform: uppercase; /* Chuyển thành chữ hoa */
+	margin-top: 40px; /*Để trống phía trên 40px */
+	font-size: 2.5rem; /*Cỡ chữ gấp 2.5 lần bình thường */
+	font-weight: 900; /*In đậm */
+}
+
+
+.collection .card:hover img{
+	transform: scale(1.2);/*Phóng lên 1.2 lần*/
+	transition: all 500ms ease-in-out; /* CHuyển đổi trạng thái trong 0.5s */
+}
+
+.collection .card{
+	overflow: hidden; /* Ẩn vùng vượt khỏi phạm vi */
+	margin-bottom: 30px;
+	transition: all 500ms ease-in-out;
+}
+
+.collection .card-body{
+	top: 40%;
+	position: absolute;
+	text-align: center;
+}
+
+.collection .card-title{
+	width: 55%;
+	text-align: center;
+	line-height: 40px;
+	margin: auto;
+	border-radius: 20px; /* Bao tròn các góc*/
+	color: white;
+	font-weight: bolder;
+}
+
+.collection .card:hover .card-title{
+	background-color: white;
+	color: black;
+	transition: all 500ms ease-in-out;
+}
+
+
+.collection .btn-primary{
+	background-color: unset; /* Loại bỏ màu nền */
+	border: 1px white solid;
+	margin-top: 10px;
+}
+
+
+.collection .card:hover  .btn-primary{
+	background-color: var(--red);
+	border: unset;
+	transition: all 500ms ease-in-out;
+}
+
+.collection .card-img-top{
+	transition: all 500ms ease-in-out;
+}
+
+.collection .card::after{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.1);
+	opacity: 0;
+	visibility: hidden;
+	transition: all 500ms ease-in-out;
+}
+
+.collection .card:hover::after{
+	visibility: visible;
+	opacity: 1;
+}
+
+
+.product .card-img-top{
+	aspect-ratio: 1/1;
+}
+
+
+.product .card-title{
+	text-align: center;
+	line-height: 40px;
+	margin: auto;
+	font-weight: bolder;
+	font-size: 1.3rem;
+
+}
+
+.product .price{
+	color: blue;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.product .old_price{
+	color: var(--red);
+	text-decoration: line-through;
+}
+
+
+.product .card:hover .addCart{
+	border-radius: 1rem 0 0 0;
+}
+
+
+.product .addCart{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	background-color: white;
+	border-radius: 50%;
+	padding: 0.2rem 0.8rem;
+	box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.1);
+	transition: all 500ms ease-in-out;
+	font-size: 2rem;
+}
+
+.product .side-icons span:hover{
+	background-color: var(--red);
+	color: white;
+}
+
+.product .side-icons span{
+
+	font-size: 1.4rem;
+	background-color: white;
+	margin: 0.5rem;
+	padding: 0.4rem 0.8rem;
+	border-radius: 50%;
+	transition: all 500ms ease-in-out;
+
+}
+
+.product .card:hover .side-icons{
+	transform: translate(0%, -50%);
+}
+
+.product .side-icons{
+
+	position: absolute;
+	right: 0px;
+	top: 30%;
+	transform: translate(80%, -50%);
+	display: flex;
+	flex-direction: column;
+	padding: 1rem;
+	transition: all 500ms ease-in-out;
+}
+
+.product .card{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+
+.product .addCart:hover{
+	background-color: var(--red);
+	color: white;
+}
+
+footer{
+	background-color: var(--dark);
+	color: white;
+}
+
+footer h3{
+	margin-top: 50px;
+	line-height: 50px;
+}
+
+footer li{
+	display: block;
+	line-height: 35px;
+
+}
+
+footer ul{
+	padding: unset;
+}
+
+
+
+
+
+
+
+
+
+
+

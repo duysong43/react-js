@@ -1,0 +1,42 @@
+.lang_flag {
+    width: 30px;
+}
+
+.navbar-brand {
+    border: 2px black solid;
+    padding: 10px;
+}
+
+.navbar-brand:hover {
+    color: red;
+}
+
+#myCarousel {
+    background-color: red;
+}
+
+#myCarousel h3{
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px gray;
+}
+#myCarousel h5{
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px gray;
+
+}
+
+#myCarousel .carousel-caption{
+    text-align: left;
+    top: 10%;
+    left: 5%;
+}
+
+#myCarousel .btn-detail {
+    border: 2px white solid;
+}
+
+
+#myCarousel .btn-detail:hover {
+    background-color: #fff;
+    color: #000;
+}
